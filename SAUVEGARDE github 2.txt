@@ -1,0 +1,164 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github_cv_Mario_HTML2
+/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2 (master)
+$ git clone https://github.com/Mariogit20/cv_Mario_HTML2.git
+Cloning into 'cv_Mario_HTML2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2 (master)
+$ cd cv_Mario_HTML2
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add *
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the ne
+xt time Git touches it
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "treizieme commit"
+[main 88ce8b9] treizieme commit
+ 78 files changed, 7975 insertions(+)
+ create mode 100644 CNAME
+ create mode 100644 SAUVEGARDE github.txt
+ create mode 100644 TransportRoutier_Main.html
+ create mode 100644 Tuto_Deploiement_FRONTEND_en_GITHUB.txt
+ create mode 100644 clip-path polygon/CSS Clip-Path Generator.txt
+ create mode 100644 clip-path polygon/CSS Clip-Path.url
+ create mode 100644 clip-path polygon/ChatGPT    EXEMPLE    clip-path.docx
+ create mode 100644 clip-path polygon/ChatGPT    EXEMPLE    clip-path.pdf
+ create mode 100644 clip-path polygon/ChatGPT   IMAGE RESPONSIVIVE.docx
+ create mode 100644 clip-path polygon/ChatGPT   IMAGE RESPONSIVIVE.pdf
+ create mode 100644 clip-path polygon/IMAGES pas de PIXELS.txt
+ create mode 100644 clip-path polygon/Nouveau document texte.txt
+ create mode 100644 clip-path polygon/clip-path    IMAGE DE FOND.docx
+ create mode 100644 clip-path polygon/clip-path    IMAGE DE FOND.pdf
+ create mode 100644 clip-path polygon/clip-path polygon BEVEL.JPG
+ create mode 100644 clip-path polygon/clip-path polygon CHATGPT.txt
+ create mode 100644 clip-path polygon/clip-path polygon CIRCLE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon CLOSE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon CROSS.JPG
+ create mode 100644 clip-path polygon/clip-path polygon DECAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon ELLIPSE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon FRAME.JPG
+ create mode 100644 clip-path polygon/clip-path polygon HEPTAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon HEXAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon INSET.JPG
+ create mode 100644 clip-path polygon/clip-path polygon JAVASCRIPT IMAGE 2.html
+ create mode 100644 clip-path polygon/clip-path polygon JAVASCRIPT IMAGE.html
+ create mode 100644 clip-path polygon/clip-path polygon JAVASCRIPT TRIANGLE.html
+ create mode 100644 clip-path polygon/clip-path polygon LEFT ARROW.JPG
+ create mode 100644 clip-path polygon/clip-path polygon LEFT CHEVR.JPG
+ create mode 100644 clip-path polygon/clip-path polygon LEFT POINT.JPG
+ create mode 100644 clip-path polygon/clip-path polygon MESSAGE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon NONAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon OCTAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon PARALLELOGRAM.JPG
+ create mode 100644 clip-path polygon/clip-path polygon PENTAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RABBET.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RHOMBUS.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RIGHT ARROW.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RIGHT CHEVR.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RIGHT POINT.JPG
+ create mode 100644 clip-path polygon/clip-path polygon STAR.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID 2.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID 3.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID 4.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 2.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 3.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 4.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 5.html
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 7a.html
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE.jpg
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE.txt
+ create mode 100644 clip-path polygon/clip-path.txt
+ create mode 100644 diapo_Javascript_Page1.html
+ create mode 100644 email_Javascript.htm
+ create mode 100644 image/BRUEL.jpg
+ create mode 100644 image/Emma.JPG
+ create mode 100644 image/Mario.JPG
+ create mode 100644 image/Ordinateur.png
+ create mode 100644 image/arnold_adult.jpg
+ create mode 100644 image/bruce_fille.JPG
+ create mode 100644 image/camion-benne.JPG
+ create mode 100644 image/camion-citerne.JPG
+ create mode 100644 image/camion-routier.JPG
+ create mode 100644 image/camion_fourgon.JPG
+ create mode 100644 image/camion_frigorifique.JPG
+ create mode 100644 image/camion_plateau.JPG
+ create mode 100644 image/camion_porte-char.JPG
+ create mode 100644 image/camion_semi-remorque.JPG
+ create mode 100644 image/camion_tautliner.JPG
+ create mode 100644 image/chicago.jpg
+ create mode 100644 image/image_Terre.jpg
+ create mode 100644 image/img_lights_wide.jpg
+ create mode 100644 image/img_mountains_wide.jpg
+ create mode 100644 image/img_snow_wide.jpg
+ create mode 100644 image/samuel.jpg
+ create mode 100644 index.html
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Enumerating objects: 81, done.
+Counting objects: 100% (81/81), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (78/78), done.
+Writing objects: 100% (80/80), 3.94 MiB | 10.60 MiB/s, done.
+Total 80 (delta 12), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/Mariogit20/cv_Mario_HTML2.git
+   be52a7e..88ce8b9  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "quatorzieme commit"
+[main 84f518a] quatorzieme commit
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 312 bytes | 312.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/cv_Mario_HTML2.git
+   88ce8b9..84f518a  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "quinzieme commit"
+[main ea02f53] quinzieme commit
+ 1 file changed, 1 insertion(+)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 303 bytes | 303.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/cv_Mario_HTML2.git
+   84f518a..ea02f53  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$
