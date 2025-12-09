@@ -1,0 +1,313 @@
+A] HEBERGEMENT WEB gratuit avec BACKEND :       render.com
+
+render.com
+
+https://dashboard.render.com/
+
+
+
+B] """""HEBERGEMENT WEB gratuit"""""    avec    """""GITHUB"""""     d'un SITE WEB     FRONTEND    créé avec     html , css , js  :
+
+
+OUVRIR LE COMPTE   GITHUB
+
+B.2] : COMMANDES de DEPLOIEMENT dans GITHUB :
+
+Dans    """""OPEN Git Bash HERE""""" , on saisit les COMMANDES suivantes :
+
+
+
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github_DEPLOIEMENT/.g
+it/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT (master)
+$ git clone https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+Cloning into 'Tuto_Deploiement_BACKEND'...
+fatal: unable to access 'https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.
+git/': Could not resolve host: github.com
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT (master)
+$ git clone https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+Cloning into 'Tuto_Deploiement_BACKEND'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT (master)
+$ cd Tuto_Deploiement_BACKEND
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ code .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git add *
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git commit -m "first commit"
+[main 936768c] first commit
+ 1 file changed, 371 insertions(+)
+ create mode 100644 index.html
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.31 KiB | 1.65 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+   8f3bb97..936768c  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git commit-m "Ajout cdn"
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit-tree
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git commit -m "Ajout cdn"
+[main ae20ff1] Ajout cdn
+ 3 files changed, 25 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 Tuto_Deploiement_BACKEND.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 760 bytes | 380.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+   936768c..ae20ff1  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git commit -m "Modification Fichier"
+[main a1769c5] Modification Fichier
+ 1 file changed, 89 insertions(+), 1 deletion(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.22 KiB | 1.22 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+   ae20ff1..a1769c5  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git commit -m "Modification Fichier2"
+[main eb4e127] Modification Fichier2
+ 1 file changed, 21 insertions(+), 3 deletions(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 459 bytes | 459.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+   a1769c5..eb4e127  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git commit -m "Ajout CNAME"
+[main e5aa87c] Ajout CNAME
+ 1 file changed, 1 insertion(+)
+ create mode 100644 CNAME
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git push
+fatal: unable to access 'https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.
+git/': Could not resolve host: github.com
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git push
+fatal: unable to access 'https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.
+git/': Failed to connect to github.com port 443 after 21540 ms: Could not connec
+t to server
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git push
+fatal: unable to access 'https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.
+git/': Failed to connect to github.com port 443 after 32946 ms: Could not connec
+t to server
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 323 bytes | 323.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+   eb4e127..e5aa87c  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$
+^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git commit -m "Modification FICHIER 3"
+[main a24757e] Modification FICHIER 3
+ 1 file changed, 60 insertions(+), 1 deletion(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 649 bytes | 649.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+   e5aa87c..a24757e  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git commit -m "Modification FICHIER 4"
+[main f4d5847] Modification FICHIER 4
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 379 bytes | 379.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+   a24757e..f4d5847  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_DEPLOIEMENT/Tuto_Deploiement_BACKEND (main)
+$
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Dans   VISUAL STUDIO CODE ( VSCode )  quand on veut   SAUVER UNE MODIFICATION du CODE :
+
+
+TERMINAL de   VSCode   avec    CTRL   J     :
+
+
+
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND>git add .
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git commit -m "Modification File"
+[main 775c31c] Modification File
+ 1 file changed, 44 insertions(+)
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git push
+Enumerating objects: 5, done.      
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+   f4d5847..775c31c  main -> main
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git add .
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git commit -m "Modification File 2"
+[main 7465edd] Modification File 2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+   775c31c..7465edd  main -> main
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git add .
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git commit -m "Modification File 3"
+[main 0d249b1] Modification File 3
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+   7465edd..0d249b1  main -> main
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git add .
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git commit -m "Modification File 4"
+[main 640ebbf] Modification File 4
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git add .
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git commit -m "Modification File 5"
+[main 3753d0b] Modification File 5
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename Tuto_Deploiement_BACKEND.txt => Tuto_Deploiement_BACKEND_en_GITHUB.txt (100%)
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND> git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 243 bytes | 243.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/Tuto_Deploiement_BACKEND.git
+   640ebbf..3753d0b  main -> main
+PS D:\PYTHON DJANGO HOPES\github_DEPLOIEMENT\Tuto_Deploiement_BACKEND>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

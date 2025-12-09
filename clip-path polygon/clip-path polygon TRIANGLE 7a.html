@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image dans un Triangle Statique</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #f4f4f4;
+}
+
+/* --- Le Conteneur de la Forme --- */
+.forme-container {
+    width: 300px; /* Taille du conteneur */
+    height: 300px;
+    
+    /* 🔺 La Magie du Clip-Path : Forme Triangle */
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    
+    /* Cache ce qui dépasse de la forme */
+    overflow: hidden; 
+    
+    /* Ajout d'une bordure et d'une ombre pour mieux délimiter la forme */
+    border: 5px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    
+    /* Marge pour l'esthétique */
+    margin-top: 20px;
+}
+
+/* --- L'Image à l'intérieur de la Forme --- */
+.forme-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que l'image couvre toute la zone sans déformation */
+    display: block; /* Supprime l'espace indésirable sous l'image */
+}
+
+h1 {
+    color: #333;
+}
+</style>
+</head>
+<body>
+<h1>Image coupée en forme de Triangle</h1>
+
+<div class="forme-container">
+  <img src="https://picsum.photos/id/1018/600/600" alt="Paysage montagneux">
+</div>
+
+</body>
+</html>

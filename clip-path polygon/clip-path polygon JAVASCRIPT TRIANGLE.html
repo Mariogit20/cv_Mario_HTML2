@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Transition Clip-Path</title>
+<style>
+.triangle-forme {
+  /* Dimensions de la boîte d'origine */
+  width: 200px;
+  height: 200px;
+  background-color: #3498db; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  
+  /* 🔺 Forme initiale : Triangle */
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  
+  /* Ajout d'une transition pour une transformation en douceur */
+  transition: clip-path 0.5s ease-in-out; 
+}
+
+.losange-forme {
+  /* 💎 Forme Losange : Cette classe sera ajoutée/retirée par JavaScript */
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 1.1em;
+  min-height: 20px; /* Réserver un peu d'espace */
+}
+
+/* Style du bouton pour une meilleure apparence */
+button {
+    padding: 10px 15px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>Transformation CSS avec JavaScript</h1>
+
+<p>Cliquez sur le bouton pour transformer le triangle en losange :</p>
+
+<button onclick="changerForme()">Transformer en Losange</button>
+
+<p id="demo" class="message"></p>
+
+<div id="formeACliquer" class="triangle-forme">
+  JE SUIS UN TRIANGLE
+</div>
+
+<script>
+function changerForme() {
+    const element = document.getElementById("formeACliquer");
+    const demoMessage = document.getElementById("demo");
+    const bouton = document.querySelector("button");
+
+    // 1. Appliquer la nouvelle forme (Losange)
+    element.classList.toggle('losange-forme');
+    
+    // 2. Mettre à jour le message et le texte du bouton
+    if (element.classList.contains('losange-forme')) {
+        demoMessage.innerHTML = "✅ Le triangle est maintenant un **losange** !";
+        element.innerHTML = "JE SUIS UN LOSANGE";
+        bouton.textContent = "Revenir au Triangle";
+    } else {
+        demoMessage.innerHTML = "✅ Le losange est redevenu un **triangle** !";
+        element.innerHTML = "JE SUIS UN TRIANGLE";
+        bouton.textContent = "Transformer en Losange";
+    }
+}
+</script>
+
+</body>
+</html>

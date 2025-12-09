@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>clip-path: polygon(50% 0%, 0% 100%, 100% 100%);</title>
+<style>
+.triangle-forme {
+  /* Dimensions de la boîte d'origine */
+  width: 200px;
+  height: 200px;
+  
+  /* Couleur d'arrière-plan */
+  background-color: #3498db; /* Un bleu vif */
+  
+  /* Assurez-vous que le contenu à l'intérieur est centré */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  
+  /* ✂️ La Magie du Clip-Path */
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+</style>
+</head>
+<body>
+<h1>HTML DOM Events</h1>
+<h2>The onclick Event</h2>
+
+<p>The onclick event triggers a function when an element is clicked on.</p>
+<p>Click to trigger a function that will output "Hello World":</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Ceci est le contenu de la boîte bleue, mais seule la partie en forme de triangle est visible.";
+}
+</script>
+
+<div class="triangle-forme">
+  Ceci est le contenu de la boîte bleue,
+  mais seule la partie en forme de triangle est visible.
+</div>
+
+</body>
+</html>
