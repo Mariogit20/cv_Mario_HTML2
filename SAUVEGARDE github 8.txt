@@ -1,0 +1,91 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git checkout Test
+Already on 'Test'
+Your branch is up to date with 'origin/Test'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git merge main
+Already up to date.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git merge Test
+Updating 044f639..41e0c1e
+Fast-forward
+ SAUVEGARDE github 5.txt => SAUVEGARDE github 7.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+ rename SAUVEGARDE github 5.txt => SAUVEGARDE github 7.txt (99%)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/cv_Mario_HTML2.git
+   044f639..41e0c1e  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git init
+Reinitialized existing Git repository in D:/PYTHON DJANGO HOPES/github_cv_Mario_
+HTML2/cv_Mario_HTML2/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'index - Copie.html', LF will be replaced by CRL
+F the next time Git touches it
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "vingt cinquieme commit"
+[main 761c53a] vingt cinquieme commit
+ 2 files changed, 2728 insertions(+)
+ create mode 100644 index - Copie.html
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 815 bytes | 271.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/cv_Mario_HTML2.git
+   9962e2a..761c53a  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "vingt septieme commit"
+[main 243de5e] vingt septieme commit
+ 1 file changed, 2626 deletions(-)
+ delete mode 100644 index - Copie.html
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+$zureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
