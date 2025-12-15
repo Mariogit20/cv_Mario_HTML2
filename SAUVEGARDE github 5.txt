@@ -101,4 +101,123 @@ Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
 
 AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "vingt neuvieme commit"
+[main 9ae8203] vingt neuvieme commit
+ 1 file changed, 104 insertions(+)
+ create mode 100644 SAUVEGARDE github 5.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.17 KiB | 1.17 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/cv_Mario_HTML2.git
+   243de5e..9ae8203  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git checkout Test
+Switched to branch 'Test'
+Your branch is up to date with 'origin/Test'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git merge main
+Updating 243de5e..9ae8203
+Fast-forward
+ SAUVEGARDE github 5.txt | 104 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 104 insertions(+)
+ create mode 100644 SAUVEGARDE github 5.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/cv_Mario_HTML2.git
+   243de5e..9ae8203  Test -> Test
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git commit -m "trentieme commit"
+[Test 822baf5] trentieme commit
+ 1 file changed, 46 insertions(+)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 516 bytes | 172.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/cv_Mario_HTML2.git
+   9ae8203..822baf5  Test -> Test
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "trente et unieme commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git checkout Test
+Switched to branch 'Test'
+Your branch is up to date with 'origin/Test'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git merge main
+Already up to date.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (Test)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
 $
