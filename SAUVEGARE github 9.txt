@@ -1,0 +1,256 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git init
+Reinitialized existing Git repository in D:/PYTHON DJANGO HOPES/github_cv_Mario_
+HTML1/cv_Mario_HTML1/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git commit -m "quarante cinquieme commit"
+[main 32d53e9] quarante cinquieme commit
+ 63 files changed, 3948 insertions(+), 12 deletions(-)
+ create mode 100644 SAUVEGARDE github 2.txt
+ create mode 100644 SAUVEGARDE github 4.txt
+ create mode 100644 SAUVEGARDE github 7.txt
+ create mode 100644 SAUVEGARDE github 8.txt
+ create mode 100644 clip-path polygon/CSS Clip-Path Generator.txt
+ create mode 100644 clip-path polygon/CSS Clip-Path.url
+ create mode 100644 clip-path polygon/ChatGPT    EXEMPLE    clip-path.docx
+ create mode 100644 clip-path polygon/ChatGPT    EXEMPLE    clip-path.pdf
+ create mode 100644 clip-path polygon/ChatGPT   IMAGE RESPONSIVIVE.docx
+ create mode 100644 clip-path polygon/ChatGPT   IMAGE RESPONSIVIVE.pdf
+ create mode 100644 clip-path polygon/IMAGES pas de PIXELS.txt
+ create mode 100644 clip-path polygon/Nouveau document texte.txt
+ create mode 100644 clip-path polygon/clip-path    IMAGE DE FOND.docx
+ create mode 100644 clip-path polygon/clip-path    IMAGE DE FOND.pdf
+ create mode 100644 clip-path polygon/clip-path polygon BEVEL.JPG
+ create mode 100644 clip-path polygon/clip-path polygon CHATGPT.txt
+ create mode 100644 clip-path polygon/clip-path polygon CIRCLE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon CLOSE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon CROSS.JPG
+ create mode 100644 clip-path polygon/clip-path polygon DECAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon ELLIPSE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon FRAME.JPG
+ create mode 100644 clip-path polygon/clip-path polygon HEPTAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon HEXAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon INSET.JPG
+ create mode 100644 clip-path polygon/clip-path polygon JAVASCRIPT IMAGE 2.html
+ create mode 100644 clip-path polygon/clip-path polygon JAVASCRIPT IMAGE.html
+ create mode 100644 clip-path polygon/clip-path polygon JAVASCRIPT TRIANGLE.html
+ create mode 100644 clip-path polygon/clip-path polygon LEFT ARROW.JPG
+ create mode 100644 clip-path polygon/clip-path polygon LEFT CHEVR.JPG
+ create mode 100644 clip-path polygon/clip-path polygon LEFT POINT.JPG
+ create mode 100644 clip-path polygon/clip-path polygon MESSAGE.JPG
+ create mode 100644 clip-path polygon/clip-path polygon NONAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon OCTAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon PARALLELOGRAM.JPG
+ create mode 100644 clip-path polygon/clip-path polygon PENTAGON.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RABBET.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RHOMBUS.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RIGHT ARROW.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RIGHT CHEVR.JPG
+ create mode 100644 clip-path polygon/clip-path polygon RIGHT POINT.JPG
+ create mode 100644 clip-path polygon/clip-path polygon STAR.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID 2.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID 3.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID 4.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRAPEZOID.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 2.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 3.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 4.JPG
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 5.html
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE 7a.html
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE.jpg
+ create mode 100644 clip-path polygon/clip-path polygon TRIANGLE.txt
+ create mode 100644 clip-path polygon/clip-path.txt
+ create mode 100644 email_Javascript.htm
+ create mode 100644 image/BRUEL.jpg
+ create mode 100644 image/Emma.JPG
+ create mode 100644 image/arnold_adult.jpg
+ create mode 100644 image/bruce_fille.JPG
+ create mode 100644 image/samuel.jpg
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git push
+Enumerating objects: 71, done.
+Counting objects: 100% (71/71), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (63/63), done.
+Writing objects: 100% (66/66), 3.21 MiB | 10.89 MiB/s, done.
+Total 66 (delta 16), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (16/16), completed with 3 local objects.
+To https://github.com/Mariogit20/cv_Mario_HTML1.git
+   efbb969..32d53e9  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git commit -m "quarante septieme commit"
+[main d2f0263] quarante septieme commit
+ 1 file changed, 62 insertions(+), 62 deletions(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 590 bytes | 590.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/cv_Mario_HTML1.git
+   32d53e9..d2f0263  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git commit -m "quarante huitieme commit"
+[main 9451961] quarante huitieme commit
+ 1 file changed, 36 insertions(+), 36 deletions(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 551 bytes | 551.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/cv_Mario_HTML1.git
+   d2f0263..9451961  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git commit -m "quarante neuvieme commit"
+[main 34c3bbd] quarante neuvieme commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 333 bytes | 333.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/cv_Mario_HTML1.git
+   9451961..34c3bbd  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git commit -m "cinquantieme commit"
+[main 166c56d] cinquantieme commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 305 bytes | 305.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/cv_Mario_HTML1.git
+   34c3bbd..166c56d  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git commit -m "cinquante et unieme commit"
+[main a2d42d9] cinquante et unieme commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/cv_Mario_HTML1.git
+   166c56d..a2d42d9  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ ^C
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git commit -m "cinquante deuxieme commit"
+[main 86deef2] cinquante deuxieme commit
+ 1 file changed, 206 insertions(+)
+ create mode 100644 SAUVEGARE github 9.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.57 KiB | 1.57 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/cv_Mario_HTML1.git
+   a2d42d9..86deef2  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git commit -m "cinquante troisieme commit"
+[main 49e33d9] cinquante troisieme commit
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git config --global http.postBuffer 2048576000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 339 bytes | 339.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Mariogit20/cv_Mario_HTML1.git
+   86deef2..49e33d9  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML1/cv_Mario_HTML1 (main)
+$
