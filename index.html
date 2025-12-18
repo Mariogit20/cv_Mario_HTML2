@@ -1828,7 +1828,123 @@ img.temoignages_des_CLIENTS:hover {
         
 
         <div class="grille-temoignages">
-            
+<!--
+DEBUT ============> AJOUT de l'     """"""""OMBRE PORTEE""""""""     sur les     """"""""Cards""""""""     des     """"""""TEMOIGNAGES    des    PERSONNES""""""""    :::::::::::::::::::::::            
+DEBUT ============> AJOUT de l'     """"""""OMBRE PORTEE""""""""     sur les     """"""""Cards""""""""     des     """"""""TEMOIGNAGES    des    PERSONNES""""""""    :::::::::::::::::::::::            
+DEBUT ============> AJOUT de l'     """"""""OMBRE PORTEE""""""""     sur les     """"""""Cards""""""""     des     """"""""TEMOIGNAGES    des    PERSONNES""""""""    :::::::::::::::::::::::            
+DEBUT ============> AJOUT de l'     """"""""OMBRE PORTEE""""""""     sur les     """"""""Cards""""""""     des     """"""""TEMOIGNAGES    des    PERSONNES""""""""    :::::::::::::::::::::::            
+-->            
+<style>
+/*
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr    
+
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+https://gemini.google.com/app/7ef82af70381daf0?hl=fr
+*/
+
+/* Style pour les cartes de témoignages */
+.carte-temoignage-dynamique {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 2rem;
+    /* Ombre subtile personnalisée */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+    height: 100%; /* Pour que toutes les cartes aient la même hauteur dans une grille */
+}
+
+/* Effet au survol (Hover) */           /*   """""NOUVEAUTE A AJOUTER""""" ce 2025   */
+.carte-temoignage-dynamique:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #0d6efd; /* Petite barre de couleur (bleu Bootstrap) au survol */
+}
+
+
+
+
+
+
+
+/*
+DEBUT =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" ::::::::
+DEBUT =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" ::::::::
+DEBUT =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" ::::::::
+DEBUT =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" ::::::::
+DEBUT =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" ::::::::
+DEBUT =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" ::::::::
+DEBUT =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" ::::::::
+DEBUT =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" ::::::::
+*/
+/* État par défaut de la carte */
+.carte-temoignage {
+    /* ... vos styles existants (background, padding, etc.) ... */
+    
+/*    border-left: 4px solid transparent;      */     /* Prépare la bordure pour éviter un saut de texte */
+    transition: 
+        transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+        box-shadow 0.3s ease, 
+        border-left 0.3s ease;
+    
+    will-change: transform; /* Aide le navigateur à fluidifier l'animation */
+}
+
+/* Effet au survol (Hover) - NOUVEAUTÉ 2025 */
+.carte-temoignage:hover {
+/*    transform: translateY(-12px);   */  /* Légèrement plus haut pour accentuer l'effet "ressort" */
+/*    transform: translateY(-0.05px);  */  /* Légèrement plus haut pour accentuer l'effet "ressort" */    
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+/*    border-left: 4px solid #0d6efd;                    */
+/*    cursor: pointer;   */
+}
+/*
+FIN   =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" !!!!!!!!
+FIN   =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" !!!!!!!!
+FIN   =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" !!!!!!!!
+FIN   =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" !!!!!!!!
+FIN   =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" !!!!!!!!
+FIN   =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" !!!!!!!!
+FIN   =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" !!!!!!!!
+FIN   =========> OMBRE sur le BAS DROITE des Cards ========> """"Ce qu'ils disent de moi"""" !!!!!!!!
+*/
+
+
+
+
+
+
+
+/*
+.avatar-style {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #f8f9fa;
+}
+*/    
+</style>    
+<!--
+<!--
+FIN   ============> AJOUT de l'     """"""""OMBRE PORTEE""""""""     sur les     """"""""Cards""""""""     des     """"""""TEMOIGNAGES    des    PERSONNES""""""""    !!!!!!!!!!!!!!!!!!!!!!!            
+FIN   ============> AJOUT de l'     """"""""OMBRE PORTEE""""""""     sur les     """"""""Cards""""""""     des     """"""""TEMOIGNAGES    des    PERSONNES""""""""    !!!!!!!!!!!!!!!!!!!!!!!              
+FIN   ============> AJOUT de l'     """"""""OMBRE PORTEE""""""""     sur les     """"""""Cards""""""""     des     """"""""TEMOIGNAGES    des    PERSONNES""""""""    !!!!!!!!!!!!!!!!!!!!!!!            
+FIN   ============> AJOUT de l'     """"""""OMBRE PORTEE""""""""     sur les     """"""""Cards""""""""     des     """"""""TEMOIGNAGES    des    PERSONNES""""""""    !!!!!!!!!!!!!!!!!!!!!!!        
+-->
             <article class="carte-temoignage">
                 <p class="citation">"Le travail de ANDRIANTSIMBAHARILANTO Halley Mario sur notre site a été exceptionnel. La qualité du code et le respect du responsive design ont dépassé nos attentes."</p>
 <!--                
