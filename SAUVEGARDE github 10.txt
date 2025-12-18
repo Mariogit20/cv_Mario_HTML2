@@ -1,0 +1,36 @@
+PS D:\PYTHON DJANGO HOPES\github_cv_Mario_HTML2\cv_Mario_HTML2> git add *
+PS D:\PYTHON DJANGO HOPES\github_cv_Mario_HTML2\cv_Mario_HTML2> git commit -m "Modification File 217"
+[main 46c52cf] Modification File 217
+ 1 file changed, 117 insertions(+), 1 deletion(-)
+PS D:\PYTHON DJANGO HOPES\github_cv_Mario_HTML2\cv_Mario_HTML2> git config --global http.postBuffer 2048576000
+PS D:\PYTHON DJANGO HOPES\github_cv_Mario_HTML2\cv_Mario_HTML2> git push                        
+Enumerating objects: 5, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.42 KiB | 46.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+PS D:\PYTHON DJANGO HOPES\github_cv_Mario_HTML2\cv_Mario_HTML2> git add .
+PS D:\PYTHON DJANGO HOPES\github_cv_Mario_HTML2\cv_Mario_HTML2> git commit -m "Modification File 219"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS D:\PYTHON DJANGO HOPES\github_cv_Mario_HTML2\cv_Mario_HTML2> git config --global http.postBuffer 2048576000
+PS D:\PYTHON DJANGO HOPES\github_cv_Mario_HTML2\cv_Mario_HTML2> git push
+Everything up-to-date
+PS D:\PYTHON DJANGO HOPES\github_cv_Mario_HTML2\cv_Mario_HTML2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
