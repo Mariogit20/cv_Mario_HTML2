@@ -782,9 +782,10 @@ https://gemini.google.com/app/3c4df017cee9736d?hl=fr
 https://gemini.google.com/app/3c4df017cee9736d?hl=fr
 https://gemini.google.com/app/3c4df017cee9736d?hl=fr
 */
+/*
 .liste-competences li {
     display: flex;
-    align-items: center; /* Centre l'icône verticalement par rapport au texte */
+    align-items: center;       Centre l'icône verticalement par rapport au texte 
     background-color: white;
     padding: 8px 15px;
     border-radius: 5px;
@@ -793,8 +794,28 @@ https://gemini.google.com/app/3c4df017cee9736d?hl=fr
     font-weight: 500;
     font-size: 0.9rem;
     
-    /* Empêche le texte de passer sous l'icône si le titre est long */
+           Empêche le texte de passer sous l'icône si le titre est long 
     text-align: left; 
+}
+*/
+.liste-competences li {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+    /* On décompose le padding : 
+       8px (haut/bas) 
+       15px (droite) 
+       8px (bas) 
+       5px (gauche - réduit pour rapprocher l'icône de la barre)
+    */
+    padding: 8px 15px 8px 6px; 
+
+    border-radius: 5px;
+    border-left: 4px solid var(--couleur-primaire); /* Votre barre bleue */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 .icone-skill {
