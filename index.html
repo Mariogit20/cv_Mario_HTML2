@@ -809,7 +809,10 @@ https://gemini.google.com/app/3c4df017cee9736d?hl=fr
        8px (bas) 
        5px (gauche - réduit pour rapprocher l'icône de la barre)
     */
+/*    
     padding: 8px 15px 8px 6px; 
+*/
+    padding: 8px 15px 8px 6px;     
 
     border-radius: 5px;
     border-left: 4px solid var(--couleur-primaire); /* Votre barre bleue */
@@ -2163,7 +2166,10 @@ halleymariomen@gmail.com
                 <p>Je suis un développeur passionné par la **maîtrise du <span style="font-weight: bold; color:rgb(13, 167, 64); " >front-end</span>** et l'art de transformer une maquette en une expérience utilisateur fluide. J'ai une préférence pour les solutions simples, maintenables et entièrement conçues à partir de HTML/CSS.</p>
                 
                 <h3>Mes Compétences Clés</h3>
-                <ul class="liste-competences">
+<!--
+    text-indent: 1.5cm;        /*   """"RETRAIT POSITIF DE PREMIERE LIGNE""""    du    """"TEXTE""""    suivant    ============>       """"Je suis un développeur passionné par la **maîtrise du front-end** et l'art de transformer une maquette en une expérience utilisateur fluide. J'ai une préférence pour les solutions simples, maintenables et entièrement conçues à partir de HTML/CSS.""""    */
+-->                
+                <ul class="liste-competences"   style="    text-indent: 0cm;  " >
                     <li><i class="fab fa-html5 fa-lg icone-skill"></i> **HTML5 Sémantique**</li>
                     <li><i class="fab fa-css3-alt fa-lg icone-skill"></i> **CSS3 Avancé**</li>
                     <li><i class="fas fa-mobile-alt fa-lg icone-skill"></i> Responsive Design / Media Queries</li>
