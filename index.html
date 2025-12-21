@@ -752,7 +752,7 @@ halleymariomen@gmail.com
         justify-content: flex-start; /* Aligner à gauche sur desktop */
     }
 }
-
+/*
 .liste-competences li {
     background-color: white;
     padding: 8px 15px;
@@ -766,6 +766,46 @@ halleymariomen@gmail.com
 .icone-skill {
     color: var(--couleur-secondaire);
     margin-right: 8px;
+}
+*/
+
+/*
+"""""""ALIGNEMENT VERTICALE sur SMARTPHONE"""""""      de :      """""""Mes Compétences Clés"""""""    :::::::::::::
+"""""""ALIGNEMENT VERTICALE sur SMARTPHONE"""""""      de :      """""""Mes Compétences Clés"""""""    :::::::::::::
+"""""""ALIGNEMENT VERTICALE sur SMARTPHONE"""""""      de :      """""""Mes Compétences Clés"""""""    :::::::::::::
+"""""""ALIGNEMENT VERTICALE sur SMARTPHONE"""""""      de :      """""""Mes Compétences Clés"""""""    :::::::::::::
+"""""""ALIGNEMENT VERTICALE sur SMARTPHONE"""""""      de :      """""""Mes Compétences Clés"""""""    :::::::::::::
+
+https://gemini.google.com/app/3c4df017cee9736d?hl=fr
+https://gemini.google.com/app/3c4df017cee9736d?hl=fr
+https://gemini.google.com/app/3c4df017cee9736d?hl=fr
+https://gemini.google.com/app/3c4df017cee9736d?hl=fr
+https://gemini.google.com/app/3c4df017cee9736d?hl=fr
+*/
+.liste-competences li {
+    display: flex;
+    align-items: center; /* Centre l'icône verticalement par rapport au texte */
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border-left: 4px solid var(--couleur-primaire);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    font-weight: 500;
+    font-size: 0.9rem;
+    
+    /* Empêche le texte de passer sous l'icône si le titre est long */
+    text-align: left; 
+}
+
+.icone-skill {
+    color: var(--couleur-secondaire);
+
+    /* ÉTAPE CRUCIALE : On donne une largeur fixe identique à toutes les icônes */
+    width: 25px; 
+    display: inline-block;
+    text-align: center; /* Centre l'icône dans ses 25px */
+    margin-right: 12px; /* Espace constant entre l'icône et le début du texte */
+    flex-shrink: 0; /* Empêche l'icône de s'écraser si le texte manque de place */
 }
 
 /* =====================================================
