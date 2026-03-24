@@ -1,0 +1,141 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "sauvegarde github 4"
+[main 9cc7f14] sauvegarde github 4
+ 3 files changed, 4357 insertions(+), 2149 deletions(-)
+ create mode 100644 index_FirstWord_SearchField.html
+ create mode 100644 index_sans_SearchField.html
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 5.59 KiB | 1.40 MiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/Mariogit20/cv_Mario_HTML2.git
+   2d23abe..9cc7f14  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "sauvegarde github 5"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "sauvegarde github 7"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "sauvegarde github 9"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "sauvegarde github 11"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "sauvegarde github 14"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "sauvegarde github 17"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "sauvegarde github 19"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git commit -m "sauvegarde github 21"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github_cv_Mario_HTML2/cv_Mario_HTML2 (main)
+$
