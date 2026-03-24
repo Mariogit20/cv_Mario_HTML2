@@ -38,22 +38,14 @@ body {
     padding-top: 56px; 
 }
 
-/* --- CLASSES POUR LE SURLIGNAGE DE LA RECHERCHE --- */
+/* --- CLASSE POUR LE SURLIGNAGE DE LA RECHERCHE --- */
 .surligne {
     background-color: #fff700;
     color: #000; 
     font-weight: bold;
     padding: 0 4px;
     border-radius: 3px;
-    transition: all 0.3s ease;
-}
-
-/* Classe ajoutée dynamiquement sur le résultat "focus" */
-.surligne-actif {
-    background-color: #ff9800 !important; /* Orange */
-    box-shadow: 0 0 8px rgba(255, 152, 0, 0.9);
-    transform: scale(1.1);
-    display: inline-block;
+    box-shadow: 0 0 5px rgba(255, 247, 0, 0.8);
 }
 
 h2 {
@@ -125,12 +117,12 @@ h2::after {
         display: inline-block;
         margin-left: .5em;
         vertical-align: middle;
-        content: "▶"; 
+        content: "?"; 
         transition: transform 0.3s;
     }
     .dropdown-submenu .dropdown-menu.show ~ a::after {
         transform: rotate(90deg);
-        content: "▼"; 
+        content: "?"; 
     }
 }
 
@@ -604,7 +596,7 @@ i.fi.fi-mg:hover {
 }    
 </style>
 
-        <p style="    font-size: 3vw;    " >Bienvenue ! Je suis <span style="background:linear-gradient(90deg,var(--brand),var(--brand-2));-webkit-background-clip:text;background-clip:text;color:transparent;       text-shadow:none;  ">ANDRIANTSIMBAHARILANTO Halley Mario</span> <i class="fi fi-mg fa-xs"></i> 😃</p>           
+        <p style="    font-size: 3vw;    " >Bienvenue ! Je suis <span style="background:linear-gradient(90deg,var(--brand),var(--brand-2));-webkit-background-clip:text;background-clip:text;color:transparent;       text-shadow:none;  ">ANDRIANTSIMBAHARILANTO Halley Mario</span> <i class="fi fi-mg fa-xs"></i> ??</p>           
 
         <p>Intégrateur web passionné par la création d'interfaces utilisateur élégantes et performantes.</p>
 
@@ -863,7 +855,7 @@ img.temoignages_des_CLIENTS:hover {
                 <span>Email</span>
             </a>
 
-            <a href="https://wa.me/+261340903559" target="_blank" class="bouton-social RANG_____ENREGISTREMENT_DE_L_INFOBULLE_50 TEXTE_____DE_L_INFOBULLE_50 RANG_____ENREGISTREMENT_DE_L_INFOBULLE_51 TEXTE_____DE_L_INFOBULLE_51" numero_TABLE_Appreciation="4" id='LIEN_IDENTIFICATION_________F_504' onmouseover='FONCTION________Creer_une_INFOBULLE_51(this)' onmouseout="FONCTION________Supprimer_une_INFOBULLE_51(this)" alt="+26134&nbsp;09&nbsp;035&nbsp;59 👌" title="">
+            <a href="https://wa.me/+261340903559" target="_blank" class="bouton-social RANG_____ENREGISTREMENT_DE_L_INFOBULLE_50 TEXTE_____DE_L_INFOBULLE_50 RANG_____ENREGISTREMENT_DE_L_INFOBULLE_51 TEXTE_____DE_L_INFOBULLE_51" numero_TABLE_Appreciation="4" id='LIEN_IDENTIFICATION_________F_504' onmouseover='FONCTION________Creer_une_INFOBULLE_51(this)' onmouseout="FONCTION________Supprimer_une_INFOBULLE_51(this)" alt="+26134&nbsp;09&nbsp;035&nbsp;59 ??" title="">
                 <i class="fab fa-whatsapp fa-2x"></i>
                 <span>WhatsApp</span>
             </a>
@@ -994,7 +986,7 @@ img.temoignages_des_CLIENTS:hover {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 <script>
-    // Algorithme de calcul de la distance de Levenshtein
+    // 1. Algorithme de calcul de la distance de Levenshtein
     function levenshtein(a, b) {
         if (a.length === 0) return b.length;
         if (b.length === 0) return a.length;
@@ -1017,74 +1009,31 @@ img.temoignages_des_CLIENTS:hover {
     }
 
     $(document).ready(function() {
-        
-        // Variables pour mémoriser l'état de la recherche
-        let dernierTermeRecherche = "";
-        let indexResultatActuel = 0;
-        let totalResultats = 0;
-        let boutonRecherche = $('#form-recherche-cv button');
-
-        // Réinitialiser le bouton si on tape un nouveau mot
-        $('#champ-recherche-cv').on('input', function() {
-            if ($(this).val().trim().toLowerCase() !== dernierTermeRecherche) {
-                boutonRecherche.text('Chercher');
-            }
-        });
-
         $('#form-recherche-cv').on('submit', function(e) {
             e.preventDefault(); 
             
             let terme = $('#champ-recherche-cv').val().trim().toLowerCase();
-            
-            if (terme === "") return; 
+            let resultatsTrouves = 0;
 
-            // --- CAS 1 : C'EST LE MÊME MOT (BOUTON "SUIVANT") ---
-            if (terme === dernierTermeRecherche && totalResultats > 0) {
-                indexResultatActuel++;
-                
-                // Si on a atteint le dernier résultat, on boucle et on revient au premier
-                if (indexResultatActuel >= totalResultats) {
-                    indexResultatActuel = 0;
-                }
-                
-                // Mise à jour visuelle : on enlève la classe active de tous et on l'ajoute au nouveau
-                $('.surligne').removeClass('surligne-actif');
-                let eltActif = $('.surligne').eq(indexResultatActuel);
-                eltActif.addClass('surligne-actif');
-                
-                // Mise à jour du texte du bouton
-                boutonRecherche.text('Suivant (' + (indexResultatActuel + 1) + '/' + totalResultats + ')');
-
-                // Défilement fluide
-                $('html, body').animate({
-                    scrollTop: eltActif.offset().top - 150
-                }, 300);
-                
-                return; // On arrête là, pas besoin de refaire le calcul de texte
-            }
-
-
-            // --- CAS 2 : NOUVELLE RECHERCHE ---
-            dernierTermeRecherche = terme;
-            indexResultatActuel = 0;
-            totalResultats = 0;
-
-            // 1. Nettoyage des anciens surlignages
+            // 2. Nettoyage des anciens surlignages
             $('.surligne').each(function() {
                 $(this).replaceWith($(this).text());
             });
 
-            // 2. Définition de la tolérance (fautes de frappe)
+            if (terme === "") return; 
+
+            // 3. Définition de la tolérance (fautes de frappe acceptées)
             let tolerance = 0;
             if (terme.length >= 4 && terme.length <= 6) tolerance = 1;
             if (terme.length > 6) tolerance = 2;
 
             let regexMots = /[a-zA-ZÀ-ÿ0-9]+/g;
 
-            // 3. Parcours des textes et surlignage
+            // 4. Parcours sélectif des textes
             $('main p, main h1, main h2, main h3, main li, main span, main a').each(function() {
+                
                 $(this).contents().filter(function() {
-                    return this.nodeType === 3; // On ne cible que le texte, pas les icônes HTML
+                    return this.nodeType === 3; // Type 3 = Nœud de texte pur (ignore les balises internes comme <i>)
                 }).each(function() {
                     let texteOriginal = this.nodeValue;
                     
@@ -1093,7 +1042,7 @@ img.temoignages_des_CLIENTS:hover {
                             let motMinuscule = motCourant.toLowerCase();
                             
                             if (levenshtein(motMinuscule, terme) <= tolerance) {
-                                totalResultats++;
+                                resultatsTrouves++;
                                 return "<span class='surligne'>" + motCourant + "</span>";
                             }
                             return motCourant; 
@@ -1106,28 +1055,13 @@ img.temoignages_des_CLIENTS:hover {
                 });
             });
 
-            // 4. Actions après la nouvelle recherche
-            if (totalResultats === 0) {
+            // 5. Actions après la recherche (Scroll auto ou Alerte)
+            if (resultatsTrouves === 0) {
                 alert("Aucun résultat trouvé dans le CV pour le terme : " + terme);
-                boutonRecherche.text('Chercher');
-                dernierTermeRecherche = ""; // On réinitialise pour forcer une nouvelle recherche ensuite
             } else {
-                
-                // On met en évidence le premier élément (index 0)
-                let eltActif = $('.surligne').eq(0);
-                eltActif.addClass('surligne-actif');
-                
-                // On scrolle vers le premier élément
                 $('html, body').animate({
-                    scrollTop: eltActif.offset().top - 150
+                    scrollTop: $('.surligne').first().offset().top - 100
                 }, 500);
-                
-                // On met à jour le bouton
-                if (totalResultats > 1) {
-                    boutonRecherche.text('Suivant (1/' + totalResultats + ')');
-                } else {
-                    boutonRecherche.text('1 Résultat');
-                }
             }
         });
     });
